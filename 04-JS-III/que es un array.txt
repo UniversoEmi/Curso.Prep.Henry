@@ -1,0 +1,15 @@
+Un array es un conjunto de variables, estas empiezan de cero..
+
+un arreglo es una lista elementos, el arreglo se define con brackets(corchetes)  
+
+var arreglo = [1, 2, 3, 4 'toni', [2, 3, 4]]
+arreglo[0]
+1
+
+
+
+
+
+
+Alt+91[
+Alt+93]
