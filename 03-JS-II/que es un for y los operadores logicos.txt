@@ -1,0 +1,8 @@
+Un ciclo 'for' es una estructura que nos va a permitir repetir una instruccion,
+OPERADORES LOGICOS:
+En js tenemos tres tipos de operadores logicos el (OR) (AND) (NOT)
+El operador OR se representa con dos linea verticales || el OR se utiliza generalmente en los if
+
+El operador AND se representa con dos ampernson && 
+
+El operador NOT se representa con el signo de exclamcion !
