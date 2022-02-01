@@ -4,21 +4,19 @@ h1{
 
 
 img {
-    height: 400px; /*Este es el ancho*/
-   /*whidth: 500px; Este el largo*/
+    width: 400px; /*Esto es el ancho*/
 }
 
 #thirdDiv {
-    padding: 50px;
-    height: 500px;
-    width: 600px;
-    background-color: rgb(132, 216, 139);
-    border: rgb(0, 255, 55) ;
+    padding: 50px; /*relleno*/
+    height: 600px; /*altura*/
+    width: 500px;   /*ancho*/
+    background: rgb(132, 216, 139);
+    border: 100px solid blue ;
 }
 #spanId {
     font-size: 18px;
     margin: 50px;
 }
-img{
-    height: 400px;
-}
+
+
