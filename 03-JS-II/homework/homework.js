@@ -35,13 +35,13 @@ function mayoriaDeEdad(edad) {
 //Devolver el estado de conexión de usuario en cada uno de los casos.
 function conection(status) {
   if(status === 1){
-    return "Online";
+    return 'Online';
   }
-  else if(status === 2){
-    return "Away";
+  if(status === 2){
+    return 'Away';
   }
   else{
-    return "Offline";
+    return 'Offline';
   }
 }
 
