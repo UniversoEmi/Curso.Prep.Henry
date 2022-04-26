@@ -13,7 +13,7 @@ const nuevoBool = false;
 const nuevaResta = 10 - 5 === 5;
 
 // Resuelve el siguiente problema matemático:
-const nuevaMultiplicacion = 10 * 4 === 40 ;
+const nuevaMultiplicacion = 5 * 5 === 25
 
 // Resuelve el siguiente problema matemático:
 const nuevoModulo = 21 % 5 === 1;
@@ -77,15 +77,12 @@ function divide(x, y) {
 // De lo contrario, devuelve "false"
 // Tu código:
 function sonIguales(x, y) {
-  
-  if ( x === y) {
+  if (x === y){
     return true;
-  } 
-    else {
+  } else {
     return false;
-    }
   }
-  
+}
 
 
   // Devuelve "true" si las dos strings tienen la misma longitud

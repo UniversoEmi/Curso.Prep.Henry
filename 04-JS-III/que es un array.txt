@@ -1,4 +1,4 @@
-Un array es un conjunto de variables, estas empiezan de cero..
+Un array es un conjunto de variables, tambien son objetos, estas empiezan de cero..
 
 un arreglo es una lista elementos, el arreglo se define con brackets(corchetes)  
 
