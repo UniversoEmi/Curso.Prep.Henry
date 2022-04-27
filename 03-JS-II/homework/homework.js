@@ -21,7 +21,8 @@ function mayoriaDeEdad(edad) {
   } else {
     return "Not allowed";
   }
-  }
+}
+
   
 
 
@@ -31,10 +32,14 @@ function mayoriaDeEdad(edad) {
 //De lo contrario, presumimos que el usuario está "Offline"
 //Devolver el estado de conexión de usuario en cada uno de los casos.
 function conection(status) {
-  if (status === 1){return "Online";}
-  if (status === 2){return "Away";} else {
-    return "Offline";
-  }
+ if (status === 1){
+   return "Online";
+ }
+ if (status === 2){
+   return "Away";
+ } else {
+   return "Offline";
+ }
 } 
 
 
@@ -47,18 +52,18 @@ function conection(status) {
 // Si "idioma" no es ninguno de los anteiores o es `undefined` devuelve "Hola!"
 // Tu código:
 function saludo(idioma) {
-  if (idioma === "aleman") {
+  if (idioma === "aleman"){
     return "Guten Tag!";
   }
-  if (idioma === "mandarin") {
+  if (idioma === "mandarin"){
     return "Ni Hao!";
   }
-  if (idioma === "ingles") {
+  if (idioma === "ingles"){
     return "Hello!";
-  } else {
-  return "Hola!";
+  } else{
+    return "Hola!"
   }
-}
+  }
 
 
 
@@ -201,9 +206,8 @@ return true;
 function esVerdadero(valor){
   if (valor === true){
     return "Soy verdadero";
-  } else {
-    return "Soy falso";
   }
+  return "Soy falso";
 }
 
 
