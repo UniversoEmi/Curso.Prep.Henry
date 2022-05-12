@@ -13,8 +13,9 @@ function devolverPrimerElemento(array) {
 // Devuelve el último elemento de un array
 // Tu código:
 function devolverUltimoElemento(array) {
-  return array[array.length-1];
+  return array [array.length-1];
 }
+  
 
 
 
@@ -33,22 +34,21 @@ function obtenerLargoDelArray(array) {
 // Tu código:
 function incrementarPorUno(array) {
   var nuevoarray = [];
-  for (var i = 0; i < array.length; i++){
-    nuevoarray [i] = array[i] +1;
+  for(var i = 0; i < array.length; i++){
+    nuevoarray[i] = array[i] +1;
   }
   return nuevoarray;
 }
-
 
 
 // Añade el "elemento" al final del array
 // y devuelve el array
 // Tu código:
 function agregarItemAlFinalDelArray(array, elemento) {
-    array.push(elemento);{
-      return array;
-    }
-  } 
+  array.push(elemento);
+    return array;
+}
+  
 
 
 
@@ -57,11 +57,9 @@ function agregarItemAlFinalDelArray(array, elemento) {
 // Pista: usa el método `.unshift`
 // Tu código:
 function agregarItemAlComienzoDelArray(array, elemento) {
-  
-  array.unshift(elemento);
-  return array;
+   array.unshift(elemento);
+   return array;
 }
-
 
 
 // "palabras" es un array de strings/cadenas
@@ -72,7 +70,7 @@ function agregarItemAlComienzoDelArray(array, elemento) {
 
 function dePalabrasAFrase(palabras) {
   
-  return palabras.join(' ');
+  return palabras.join(" ");
 }
 
 
@@ -81,9 +79,8 @@ function dePalabrasAFrase(palabras) {
 // Devuelve "true" si está, o "false" si no está
 // Tu código:
 function arrayContiene(array, elemento) {
-  
-  for(var i = 0; i < array.length; i++) {
-    if(array[i] === elemento) {
+  for( var i = 0; i < array.length; i++){
+    if (array[i] === elemento){
       return true;
     }
   }
@@ -92,16 +89,16 @@ function arrayContiene(array, elemento) {
 
 
 
+
 // "numeros" debe ser un arreglo de enteros (int/integers)
  // Suma todos los enteros y devuelve el valor
 // Tu código:
 function agregarNumeros(numeros) {
-  
-  var suma = 0;
-  for(var i = 0; i < numeros.length; i++) {
-    suma = suma + numeros[i];
+ var suma = 0;
+  for(var i = 0; i < numeros.length; i++){
+    suma += numeros[i];
   }
-  return suma
+  return suma;
 }
 
 
@@ -110,8 +107,11 @@ function agregarNumeros(numeros) {
  // Itera (en un bucle) los elementos del array, calcula y devuelve el promedio de puntajes
 // Tu código:
 function promedioResultadosTest(resultadosTest) {
-  
-  return agregarNumeros(resultadosTest) / resultadosTest.length;
+  var arraynuevo = 0;
+    for(var i = 0; i < resultadosTest.length; i++){
+      arraynuevo += resultadosTest[i];
+    }
+        return arraynuevo / resultadosTest.length;
 }
 
 
