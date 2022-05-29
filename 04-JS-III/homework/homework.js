@@ -135,11 +135,9 @@ function numeroMasGrande(numeros) {
 // Escribe tu código aquí:
 function multiplicarArgumentos() {
   var total = 1;
-  if(arguments < total){
-    return 0;
-  }
-  for(var i = 0; i < arguments.length; i++){
-    total + total * arguments;
+  if(arguments.length < 1) {return 0;}
+  for(var i = 0; i < arguments.length; i++) {
+    total = total * arguments[i];
   }
   return total;
 }
